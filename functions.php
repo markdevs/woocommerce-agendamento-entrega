@@ -3,9 +3,9 @@
  * Carregando datapicker e scripts
  */
 
-add_action( 'wp_enqueue_scripts', 'enqueue_datepicker' );
+add_action( 'wp_enqueue_scripts', 'enqueue_datepickers' );
 
-function enqueue_datepicker() {
+function enqueue_datepickers() {
     
     if ( is_product()) {
         // Load the datepicker script (pre-registered in WordPress).

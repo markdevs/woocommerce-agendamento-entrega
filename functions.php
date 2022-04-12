@@ -39,10 +39,12 @@ function mostrar_campo_extra_apos_form_variacao () {
         jQuery(document).ready(function( $ ) {
             
 	        $( ".add_delivery_date").datepicker( {
-	        	minDate: 2,
+	        
+		minDate: 2,
                 autoHide: true,
                 beforeShowDay: $.datepicker.noWeekends
-	        } );
+	        
+		});
 	    });
 	
     </script>
